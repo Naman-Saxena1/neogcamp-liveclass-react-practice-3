@@ -31,7 +31,7 @@ export default function App() {
       {errorMsg ? <h2>Something Went Wrong! :(</h2> : ""}
       <ol>
         {data.map((item) => (
-          <li id={item.id}>
+          <li key={item.id}>
             <img
               style={{ width: "300px", height: "200px" }}
               src={item.image}
