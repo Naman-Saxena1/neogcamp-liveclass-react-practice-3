@@ -1,4 +1,4 @@
-# exercise box
+# Exercise box
 
 ## About the setup
 
